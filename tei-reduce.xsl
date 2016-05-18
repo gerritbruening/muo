@@ -12,7 +12,6 @@
     <xsl:template match="hi[@rend = 'allcaps']">
         <xsl:value-of select="upper-case(.)"/>
     </xsl:template>
-    <xsl:template match="VERWEISE"/>
     <xsl:template match="app">
         <xsl:apply-templates/>
     </xsl:template>
@@ -23,10 +22,11 @@
         <xsl:apply-templates/>
     </xsl:template>
     <xsl:template match="choice">
-        <xsl:apply-templates></xsl:apply-templates>
+        <xsl:apply-templates/>
     </xsl:template>
     <xsl:template match="sic"/>
     <xsl:template match="corr">
-        <xsl:apply-templates></xsl:apply-templates>
+        <xsl:apply-templates/>
     </xsl:template>
+    <xsl:template match="comment()"/>
 </xsl:stylesheet>
