@@ -102,7 +102,7 @@
     <xsl:template
         match="//Variante[following-sibling::*[1][self::Handexemplar[child::text()[contains(., 'Haken')]]]]">
         <app>
-            <lem wit="#HE" rend="hook">
+            <lem wit="#HEx" rend="Haken">
                 <xsl:apply-templates/>
             </lem>
         </app>
@@ -119,4 +119,7 @@
         </app>
     </xsl:template>
     <xsl:template match="Frisé"/>
+    <xsl:template match="VERWEISE">
+        <xsl:comment>TODO VERWEISE etc.</xsl:comment>
+    </xsl:template>
 </xsl:stylesheet>
