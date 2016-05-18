@@ -7,7 +7,7 @@
 	<xsl:template match="body[milestone[@unit = 'div']]">
 		<body>
 			<xsl:for-each-group select="node()"
-				group-starting-with="milestone[@unit='div']">
+				group-starting-with="milestone[@unit='div' and @type='chapter']">
 				<div type="chapter">
 					<xsl:apply-templates select="current-group()"
 						mode="in-new-div"/>

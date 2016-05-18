@@ -58,8 +58,8 @@
         </pb>
     </xsl:template>
     <xsl:template match="Kapiteltitel">
-        <milestone unit="div"/>
-        <head type="chapter">
+        <milestone unit="div" type="chapter"/>
+        <head>
             <xsl:apply-templates/>
         </head>
     </xsl:template>
