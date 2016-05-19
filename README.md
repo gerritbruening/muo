@@ -4,11 +4,13 @@
 
 2. convert this markup to a more or less custom XML
 
-3. transform custom XML to TEI
+3. transform custom XML to TEI (see about [muo.xpl](#muoxpl))
 
 4. determine FFF markup that is relevant for online features
 
 6. convert this markup to a more or less custom XML
+
+7. same as (3)
 
 # muo.xpl
 Pipeline for transformation from WF's custom XML to TEI to reduced TEI
