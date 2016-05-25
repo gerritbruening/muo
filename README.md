@@ -1,16 +1,16 @@
 # Plan of action
 
-1. determine FFF markup that is relevant for the printed edition
+[ ] determine FFF markup that is relevant for the printed edition
 
-2. convert this markup to a more or less custom XML (see #fff)
+[ ] (automatically) convert this markup to a more or less custom XML
 
-3. transform custom XML to TEI (see about [muo.xpl](#muoxpl))
+[X] transform custom XML to TEI (see about [muo.xpl](#muoxpl))
 
-4. determine FFF markup that is relevant for online features
+[ ] determine FFF markup that is relevant for online features
 
-6. convert this markup to a more or less custom XML
+[ ] convert this markup to a more or less custom XML
 
-7. same as (3)
+[ ] transform custom XML to TEI (see above)
 
 # FFF
 For reports, see
