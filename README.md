@@ -2,7 +2,7 @@
 
 * [ ] determine FFF markup that is relevant for the printed edition
 
-* [ ] (automatically) convert this markup to a more or less custom XML
+* [ ] automatically convert this markup to a more or less custom XML
 
 * [X] transform custom XML to TEI (see about [muo.xpl](#muoxpl))
 
