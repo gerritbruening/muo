@@ -21,6 +21,8 @@ Possibilities:
 * [SP. An SGML System Conforming to International Standard ISO 8879 -- Standard Generalized Markup Language](http://www.jclark.com/sp/). [SPAM](http://www.jclark.com/sp/spam.htm) may be useful, e.g. to add omitted end tags.
 * another approach is s&r to creat empty tags and reconstruct hierarchy via xsl:for-each-group ([J. Cummings](https://listserv.brown.edu/archives/cgi-bin/wa?A2=TEI-L;8396b55d.1605))
 * ask the enterprise for a possible documentation?
+* https://github.com/imazen/folioxml/blob/master/indexing.txt
+* from the same person: http://folio.wikidot.com/
 
 # muo.xpl
 Pipeline for transformation from WF's custom XML to TEI to reduced TEI
