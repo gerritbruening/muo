@@ -1,16 +1,9 @@
 # Plan of action
 
-* [ ] determine FFF markup that is relevant for the printed edition
-
-* [ ] automatically convert this markup to a more or less custom XML
-
+* [ ] convert FFF markup to custom XML in a way that is applicable only to the muo case (see https://github.com/gerritbruening/TXSTEP#fff2xmlxml)
 * [X] transform custom XML to TEI (see about [muo.xpl](#muoxpl))
-
-* [ ] determine FFF markup that is relevant for online features
-
-* [ ] convert this markup to a more or less custom XML
-
-* [ ] transform custom XML to TEI (see above)
+* [ ] build a generic FFF parser (--> WUE)
+* [ ] build a pipeline to transform the XML output of this parser to project specific XML and or TEI (--> WUE)
 
 # FFF
 For reports, see
