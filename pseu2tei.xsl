@@ -62,8 +62,20 @@
         <xsl:apply-templates/>
     </xsl:template>
     <xsl:template match="hi[@rend = 'color(#000000) background-color(#ffff00)']">
-        <lem>
-            <xsl:apply-templates/>
-        </lem>
+        <app>
+            <lem>
+                <xsl:apply-templates/>
+            </lem>
+            <readings>
+                <xsl:value-of
+                    select="following-sibling::*[1][self::hi[@rend = 'color(#000000)' or self::hi[@rend = 'sup color(#000000)']]/note]"
+                />
+            </readings>
+        </app>
     </xsl:template>
+    <xsl:template match="note"/>
+    <xsl:template match="hi[@rend = 'sup color(#000000)']">
+        <xsl:apply-templates/>
+    </xsl:template>
+    <xsl:template match="p/@rend"/>
 </xsl:stylesheet>
