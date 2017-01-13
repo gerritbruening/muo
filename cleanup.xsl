@@ -10,5 +10,8 @@
     <xsl:template match="p[child::pb and not(normalize-space(.))]">
         <xsl:apply-templates/>
     </xsl:template>
+    <xsl:template match="head/hi[not(app)]">
+        <xsl:apply-templates/>
+    </xsl:template>
     <xsl:template match="head[@n]/anchor | head/@n"/>
 </xsl:stylesheet>
