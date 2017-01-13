@@ -93,6 +93,19 @@
             </readings>
         </app>
     </xsl:template>
+    <xsl:template
+        match="hi[@rend = 'italic background(yellow)' and not(following-sibling::*[1][self::note[@place = 'foot']]/p[text()[contains(., 'EA:')]]/hi[@rend = 'allcaps'])]">
+        <hi rend="italic">
+            <app>
+                <lem>
+                    <xsl:apply-templates/>
+                </lem>
+                <readings>
+                    <xsl:value-of select="following-sibling::*[1][self::note[@place = 'foot']]"/>
+                </readings>
+            </app>
+        </hi>
+    </xsl:template>
     <xsl:template match="note[@place = 'foot']"/>
     <xsl:template match="p/@rend"/>
     <xsl:template match="anchor[@xml:id[contains(., 'MoE-2-S')]]"/>
