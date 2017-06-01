@@ -17,10 +17,14 @@ Possibilities / documentations:
 * apply TUSTEP's `#kopiere` (= https://github.com/gerritbruening/TXSTEP/blob/master/fff2xml.xml)
 
 # docx transformation to TEI
+Current routine which is to be refactored:
 1. open docx file in oXygen
 2. browse "word" and open `document.xml`
-3. run built-in transformation scenario "DOCX TEI P5". 
-
+3. run built-in transformation scenario "DOCX TEI P5".
+4. run [pseu2tei.xpl](https://github.com/gerritbruening/muo/blob/master/pseu2tei.xpl) 
+5. run [raw2tei.xml](https://github.com/gerritbruening/TXSTEP/blob/master/raw2tei.xml) 
+5. (this is basically a `#kopiere` by which the `&lt;...`&gt;` are transformed into `<...>` , i.e., XML tags, additionally, some typos in the source data are emended.)
+6. run [cust2tei.xpl](https://github.com/gerritbruening/muo/blob/master/cust2tei.xpl)
 # muo.xpl (deprecated)
 Pipeline for transformation from WF's custom XML (deprecated) to TEI to reduced TEI
 
