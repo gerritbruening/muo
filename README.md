@@ -25,12 +25,12 @@ Current routine (to be refactored):
 5. run [raw2tei.xml](https://github.com/gerritbruening/TXSTEP/blob/master/raw2tei.xml) (this is basically a `#kopiere` written in TXSTEP by which the `&lt;...&gt;` are transformed into `<...>` , i.e., XML tags, additionally, some typos in the source data are emended.)
 6. run [cust2tei.xpl](https://github.com/gerritbruening/muo/blob/master/cust2tei.xpl)
 
-Note that the routine is taylored to the output from http://www.tei-c.org/oxgarage/ which is different from the output of oXygen which seems to be preferable.
+Note that the described routine was taylored to the output from http://www.tei-c.org/oxgarage/ which is different from the output of oXygen which seems to be preferable.
 
 TODOs:
-1. refactor `pseu2tei.xpl` and suit it to oXygen output
+1. replace or refactor `pseu2tei.xpl` and suit it to oXygen output
 2. replace, if at all possible, `raw2tei.xml` by an xsl and integrate it into `pseu2tei.xpl`
-3. refactor the xslts in `cust2tei.xpl` and integrate them into `pseu2tei.xpl`
+3. replace or refactor the xslts in `cust2tei.xpl` and integrate them into `pseu2tei.xpl`
 
 # muo.xpl (deprecated)
 Pipeline for transformation from WF's custom XML (deprecated) to TEI to reduced TEI
