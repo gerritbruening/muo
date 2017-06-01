@@ -1,9 +1,7 @@
 # Plan of action
 
-* [ ] convert FFF markup to custom XML in a way that is applicable only to the muo case (see https://github.com/gerritbruening/TXSTEP#fff2xmlxml)
-* [X] transform custom XML to TEI (see about [muo.xpl](#muoxpl))
-* [ ] build a generic FFF parser (--> WUE)
-* [ ] build a pipeline to transform the XML output of this parser to project specific XML and or TEI (--> WUE)
+* [ ] convert FFF markup to TEI-XML
+* [ ] transform ouput of the built-in oXygen conversion of docx (pseudo-TEI) to canonical TEI 
 
 # FFF
 For reports, see
