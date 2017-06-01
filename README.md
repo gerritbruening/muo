@@ -14,9 +14,15 @@ Possibilities / documentations:
 * ask the enterprise for a possible documentation?
 * https://github.com/imazen/folioxml/blob/master/indexing.txt
 * from the same person: http://folio.wikidot.com/
+* apply TUSTEP's `#kopiere` (= https://github.com/gerritbruening/TXSTEP/blob/master/fff2xml.xml)
 
-# muo.xpl
-Pipeline for transformation from WF's custom XML to TEI to reduced TEI
+# docx transformation to TEI
+1. open docx file in oXygen
+2. browse "word" and open `document.xml`
+3. run built-in transformation scenario "DOCX TEI P5". 
+
+# muo.xpl (deprecated)
+Pipeline for transformation from WF's custom XML (deprecated) to TEI to reduced TEI
 
 1. run muo.xpl
 2. add `xmlns="http://www.tei-c.org/ns/1.0"` to root element `<TEI>`
