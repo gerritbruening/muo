@@ -22,7 +22,8 @@ Current routine (to be refactored):
 2. browse "word" and open `document.xml`
 3. run built-in transformation scenario "DOCX TEI P5".
 4. run [pseu2tei.xpl](https://github.com/gerritbruening/muo/blob/master/pseu2tei.xpl) 
-5. run [raw2tei.xml](https://github.com/gerritbruening/TXSTEP/blob/master/raw2tei.xml) (this is basically a `#kopiere` written in TXSTEP by which the `&lt;...&gt;` are transformed into `<...>` , i.e., XML tags, additionally, some typos in the source data are emended.)
+5. run [raw2tei.xml](https://github.com/gerritbruening/TXSTEP/blob/master/raw2tei.xml) (this is basically a `[#kopiere](https://tustep.wikispaces.com/TUSTEP+-+Kopieren)` written in TXSTEP
+[TXSTEP](https://tustep.wikispaces.com/Kopieren+mit+TXSTEP) by which the `&lt;...&gt;` are transformed into `<...>` , i.e., XML tags, additionally, some typos in the source data are emended.)
 6. run [cust2tei.xpl](https://github.com/gerritbruening/muo/blob/master/cust2tei.xpl)
 
 Note that the described routine was taylored to the output from http://www.tei-c.org/oxgarage/ which is different from the output of oXygen which seems to be preferable.
