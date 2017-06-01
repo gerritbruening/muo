@@ -17,7 +17,7 @@ Possibilities / documentations:
 * apply TUSTEP's `#kopiere` (= https://github.com/gerritbruening/TXSTEP/blob/master/fff2xml.xml)
 
 # docx transformation to TEI
-Current routine which is to be refactored:
+Current routine (to be refactored):
 1. open docx file in oXygen
 2. browse "word" and open `document.xml`
 3. run built-in transformation scenario "DOCX TEI P5".
