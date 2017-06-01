@@ -32,6 +32,14 @@ TODOs:
 2. replace, if at all possible, `raw2tei.xml` by an xsl and integrate it into `pseu2tei.xpl`
 3. replace or refactor the xslts in `cust2tei.xpl` and integrate them into `pseu2tei.xpl`
 
+## docx transformation details
+
+### apparatus entries (variants)
+In the docx file, apparatus entries are rendered as footnotes.
+These footnotes are to be transformed into TEI apparatus entries conforming to the [parallel segmentation method](http://www.tei-c.org/release/doc/tei-p5-doc/en/html/TC.html#TCAPPS).
+Passages marked up yellow are to be wrapped into a `<lem>...</lem>` element ('lemma').
+Each lemma and each footnote's content are jointly to be wrapped into an `<app>...</app>` element ('apparatus entry'), the footnote itself is to be dissolved.
+
 # muo.xpl (deprecated)
 Pipeline for transformation from WF's custom XML (deprecated) to TEI to reduced TEI
 
