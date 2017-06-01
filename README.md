@@ -22,9 +22,16 @@ Current routine which is to be refactored:
 2. browse "word" and open `document.xml`
 3. run built-in transformation scenario "DOCX TEI P5".
 4. run [pseu2tei.xpl](https://github.com/gerritbruening/muo/blob/master/pseu2tei.xpl) 
-5. run [raw2tei.xml](https://github.com/gerritbruening/TXSTEP/blob/master/raw2tei.xml) 
-5. (this is basically a `#kopiere` by which the `&lt;...`&gt;` are transformed into `<...>` , i.e., XML tags, additionally, some typos in the source data are emended.)
+5. run [raw2tei.xml](https://github.com/gerritbruening/TXSTEP/blob/master/raw2tei.xml) (this is basically a `#kopiere` written in TXSTEP by which the `&lt;...&gt;` are transformed into `<...>` , i.e., XML tags, additionally, some typos in the source data are emended.)
 6. run [cust2tei.xpl](https://github.com/gerritbruening/muo/blob/master/cust2tei.xpl)
+
+Note that the routine is taylored to the output from http://www.tei-c.org/oxgarage/ which is different from the output of oXygen which seems to be preferable.
+
+TODOs:
+1. refactor `pseu2tei.xpl` and suit it to oXygen output
+2. replace, if at all possible, `raw2tei.xml` by an xsl and integrate it into `pseu2tei.xpl`
+3. refactor the xslts in `cust2tei.xpl` and integrate them into `pseu2tei.xpl`
+
 # muo.xpl (deprecated)
 Pipeline for transformation from WF's custom XML (deprecated) to TEI to reduced TEI
 
