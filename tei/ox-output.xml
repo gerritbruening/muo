@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -24,7 +25,7 @@
         </encodingDesc>
         <revisionDesc>
             <listChange>
-                <change><date>2017-06-15T18:04:26Z</date><name>Herausgeber: Walter
+                <change><date>2017-06-21T08:27:13Z</date><name>Herausgeber: Walter
                     Fanta</name></change>
             </listChange>
         </revisionDesc>
